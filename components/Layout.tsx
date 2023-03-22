@@ -1,3 +1,4 @@
+import FollowBar from "./Layout/FollowBar";
 import Sidebar from "./Layout/Sidebar";
 
 interface Props {
@@ -13,6 +14,7 @@ const Layout = ({ children }: Props) => {
           <div className="col-span-3 lg:col-span-2 border-x-[1px] border-neutral-800">
             {children}
           </div>
+          <FollowBar />
         </div>
       </div>
     </div>
